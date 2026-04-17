@@ -1,8 +1,8 @@
 import numpy as np
 
-from architecture import RandomLSTM
-from architecture import build_feature_matrix
-from architecture import build_layer_input
+from src.architecture import RandomLSTM
+from src.architecture import build_feature_matrix
+from src.architecture import build_layer_input
 
 
 class RedRVFLOrchestrator:
