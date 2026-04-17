@@ -1,6 +1,3 @@
----
-
-```markdown
 # 📘 MINI_PROJECT — RVFL-Based Financial Time Series Forecasting
 
 ## 📌 Overview
