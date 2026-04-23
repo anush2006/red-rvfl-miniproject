@@ -1,5 +1,5 @@
 import numpy as np
-
+import torch
 from src.architecture import RandomLSTM
 from src.architecture import build_feature_matrix
 from src.architecture import build_layer_input
@@ -24,7 +24,7 @@ class RedRVFLOrchestrator:
         self.layers = []
 
         for i in range(num_layers):
-
+            torch.manual_seed(1234 + i)
             if i == 0:
                 input_size = input_features
             else:
@@ -84,7 +84,8 @@ class RedRVFLOrchestrator:
             predictions.append(pred)
 
         predictions = np.array(predictions)
-
+        print("Correlation matrix between layers:")
+        print(np.corrcoef(predictions))
         final_prediction = np.median(predictions, axis=0)
 
         return final_prediction

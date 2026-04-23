@@ -13,7 +13,7 @@ def get_all_configs():
 
     WINDOW_SIZE_OPTIONS = [48,]
     HIDDEN_SIZE_OPTIONS = [20,]
-    NUM_LAYER_OPTIONS = [1,]
+    NUM_LAYER_OPTIONS = [3,]
     RIDGE_ALPHA_OPTIONS = [0.01 ,]
     INPUT_SCALING_OPTIONS = [0.7,]
     K_OPTIONS = [1,2,3,4]

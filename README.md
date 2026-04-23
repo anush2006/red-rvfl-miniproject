@@ -92,7 +92,7 @@ MINI_PROJECT/
 
 ### 1. Clone Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/anush2006/red-rvfl
 cd MINI_PROJECT
 ````
 
