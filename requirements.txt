@@ -2,3 +2,8 @@ torch
 numpy
 scikit-learn
 optuna
+pandas
+yfinance
+statsmodels
+openpyxl
+matplotlib
