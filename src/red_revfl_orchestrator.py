@@ -139,5 +139,11 @@ class RedRVFLOrchestrator:
             predictions.append(pred)
 
         predictions = np.array(predictions)
+<<<<<<< HEAD
         # MEDIAN aggregation (paper requirement)
         return np.median(predictions, axis=0)
+=======
+        final_prediction = np.median(predictions, axis=0)
+
+        return final_prediction
+>>>>>>> cc49257403b50856bc14abaf963ee5b72c1822ab
