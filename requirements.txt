@@ -7,3 +7,4 @@ yfinance
 statsmodels
 openpyxl
 matplotlib
+seaborn
