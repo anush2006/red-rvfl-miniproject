@@ -84,8 +84,6 @@ class RedRVFLOrchestrator:
             predictions.append(pred)
 
         predictions = np.array(predictions)
-        print("Correlation matrix between layers:")
-        print(np.corrcoef(predictions))
         final_prediction = np.median(predictions, axis=0)
 
         return final_prediction
